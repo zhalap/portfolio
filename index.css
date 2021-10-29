@@ -1,0 +1,93 @@
+body {
+    background-color: #abc2b7;
+    width: 100%;
+    margin: 0px !important;
+    font-family: 'Roboto Mono', monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title {
+    color: blue;
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.description {
+    font-size:18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.header-section {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: white;
+    padding: 40px;
+}
+
+.profile-pic {
+    border: #abc2b7 5px solid;
+    border-radius: 200px;
+    
+}
+
+.main-section {
+    padding-top: 20px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    list-style: none;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: #ebebeb;
+    justify-content: center;
+    margin-top: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+footer a:hover {
+    color: blue;
+}
+
+footer a {
+    color: green;
+    text-decoration: none;
+}
+
+.email-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    background-color: #272e47;
+    border: 3px #161a29 solid;
+    border-radius: 5px;
+    box-shadow: 6px 8px 20px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 6px 8px 20px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 6px 8px 20px 0px rgba(0,0,0,0.35); 
+}
+
+.email-btn:hover {
+    border: 3px #989eb8 solid;
+}
